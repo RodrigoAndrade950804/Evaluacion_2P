@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MauiAppChistes.Models
 {
-    internal class Chistes
+    public class Joke
     {
         public string Type { get; set; }
         public string Setup { get; set; }
         public string Punchline { get; set; }
-        public string JokeId { get; set; }
+        public string Id { get; set; }
     }
 }

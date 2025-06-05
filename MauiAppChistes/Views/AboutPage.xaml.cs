@@ -6,4 +6,10 @@ public partial class AboutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void RegresarAMainPage_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PopAsync();
+
+    }
 }
